@@ -1,5 +1,5 @@
 # docker-gonespy
-a dockerfile for gonespy
+a dockerfile for [gonespy](https://github.com/gonespy/bstormps3).
 
 ## Notes
 This docker dosen't include DNS server software built-in. You can use any dns server software you want: MaraDNS, Unbound, etc.  
