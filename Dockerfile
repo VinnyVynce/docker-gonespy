@@ -32,9 +32,5 @@ EXPOSE 29900/tcp
 EXPOSE 29901/tcp
 EXPOSE 27900/udp
 
-#Expose DNS ports
-EXPOSE 53/tcp
-EXPOSE 53/udp
-
 # Start gonespy
 CMD ["/bin/sh", "/gonespy/start.sh"]
